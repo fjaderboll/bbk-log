@@ -1,0 +1,5 @@
+IMAGE_NAME=bbk-log
+CONTAINER_NAME=bbk-log
+VOLUME_NAME=bbk-log
+PORT=8380
+REMOTE_HOST=panther
