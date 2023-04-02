@@ -41,5 +41,5 @@ docker exec $CONTAINER_NAME /bin/bash -c "echo '' > /data/bbk.log"
 ```shell
 source config
 ssh-copy-id $REMOTE_HOST
-./deploy-remotely.sh # build, transfer image and start container on remote host
+./deploy-remote.sh # build, transfer image and start container on remote host
 ```

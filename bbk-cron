@@ -6,6 +6,6 @@
 # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
 # |  |  |  |  |
 # *  *  *  *  * command
-*/30 * * * * /root/bbk-log.sh >/proc/1/fd/1 2>/proc/1/fd/2
+0 * * * * /root/bbk-log.sh >/proc/1/fd/1 2>/proc/1/fd/2
 
 # An empty line is required at the end of this file for a valid cron file.
